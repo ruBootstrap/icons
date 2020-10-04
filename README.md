@@ -14,7 +14,7 @@
   <br>
   <a href="https://getbootstrap.su/docs/5.0/">Bootstrap</a>
   ·
-  <a href="https://themes.getbootstrap.su/">Темы</a>
+  <a href="https://themes.getbootstrap.com/">Темы</a>
   ·
   <a href="https://blog.getbootstrap.com/">Блог</a>
 </p>
