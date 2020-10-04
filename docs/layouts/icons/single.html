@@ -10,18 +10,15 @@
     <main class="container" id="content" role="main">
       <nav>
         <ul class="breadcrumb my-4 text-muted bg-transparent p-0">
-          <li class="breadcrumb-item"><a href="/">Icons</a></li>
+          <li class="breadcrumb-item"><a href="/">Иконки</a></li>
           <li class="breadcrumb-item">{{ .Title }}</li>
         </ul>
       </nav>
 
       <div class="row align-items-md-center">
-        <div class="col-md-6 col-lg-7">
+        <div class="col-md-12">
           <h1>{{ .Title }}</h1>
-          <p class="mb-3 mb-md-0">Tags: {{ with .Params.tags }}{{ delimit . ", " }}{{ end }}</p>
-        </div>
-        <div class="col-md-6 col-lg-5">
-          <script async src="https://cdn.carbonads.com/carbon.js?serve=CE7D4277&placement=iconsgetbootstrapcom" id="_carbonads_js"></script>
+          <p class="mb-3 mb-md-0">Теги: {{ with .Params.tags }}{{ delimit . ", " }}{{ end }}</p>
         </div>
       </div>
 
@@ -54,23 +51,23 @@
         </div>
       </div>
 
-      <h2>Copy HTML</h2>
+      <h2>Копировать HTML</h2>
 
       <div id="copy-error-callout" class="alert alert-info d-none" role="alert"></div>
 
       {{ $source := readFile (printf "/%s/%s.svg" "icons" .File.TranslationBaseName) -}}
       {{ highlight $source "html" "" }}
 
-      <h2>Examples</h2>
+      <h2>Примеры</h2>
       <p>
         <a href="#" title="Placeholder link title" class="text-decoration-none">
-          Example link text
+          Пример ссылки
           {{ readFile (printf "/%s/%s.svg" "icons" .File.TranslationBaseName) | chomp | safeHTML }}
         </a>
       </p>
       <p>
         <button type="button" class="btn btn-outline-primary">
-          Example button
+          Пример кнопки
           {{ readFile (printf "/%s/%s.svg" "icons" .File.TranslationBaseName) | chomp | safeHTML }}
         </button>
         <button type="button" class="btn btn-outline-primary">
@@ -83,7 +80,7 @@
 
     <script src="/assets/js/clipboard.min.js"></script>
     <script>
-      var btnHtml = '<div class="bd-clipboard"><button type="button" class="btn-clipboard" title="Copy to clipboard">Copy</button></div>';
+      var btnHtml = '<div class="bd-clipboard"><button type="button" class="btn-clipboard" title="Скопировать в буфер обмена">Копировать</button></div>';
 
       [].slice.call(document.querySelectorAll('figure.highlight, div.highlight'))
         .forEach(function (element) {
@@ -98,15 +95,15 @@
 
       clipboard.on('success', function (e) {
         e.clearSelection()
-        e.trigger.textContent = 'Copied!'
+        e.trigger.textContent = 'Скопировано!'
         setTimeout(function () {
-          e.trigger.textContent = 'Copy'
+          e.trigger.textContent = 'Копировать'
         }, 2000);
       })
 
       clipboard.on('error', function () {
         var modifierKey = /mac/i.test(navigator.userAgent) ? '\u2318' : 'Ctrl-'
-        var fallbackMsg = 'Press ' + modifierKey + 'C to copy'
+        var fallbackMsg = 'Press ' + modifierKey + 'C для копирования'
         var errorElement = document.getElementById('copy-error-callout')
 
         if (!errorElement) return

@@ -1,15 +1,15 @@
 ---
 ---
 
-## Install
+## Установка
 
-Bootstrap Icons are published to npm, but they can also be manually downloaded if needed.
+Иконки Bootstrap публикуются в npm, но при необходимости их также можно загрузить вручную.
 
 <div class="row my-4">
   <div class="col-md-6">
 {{< md >}}
 ### npm
-Install Bootstrap Icons via command line with npm.
+Установите иконки Bootstrap через командную строку с помощью npm.
 
 {{< highlight shell >}}
 npm install bootstrap-icons
@@ -18,23 +18,23 @@ npm install bootstrap-icons
   </div>
   <div class="col-md-6">
 {{< md >}}
-### Download
-Our [releases](https://github.com/twbs/icons/releases/) are published to GitHub. All icon SVGs are included in the bundle, as well as license and readme files. Our `package.json` is also included, though our npm scripts are primarily available for our development workflows.
+### Скачать
+Наши [релизы]](https://github.com/twbs/icons/releases/) публикуются на GitHub. В комплект включены все иконки SVG, а также файлы лицензии и readme. Наш `package.json` также включен, хотя наши сценарии npm в основном доступны для наших рабочих процессов разработки.
 
-<a class="btn btn-outline-primary" href="https://github.com/twbs/icons/releases/latest/">Download latest ZIP</a>
+<a class="btn btn-outline-primary" href="https://github.com/twbs/icons/releases/latest/">Скачать последнюю версию в ZIP</a>
 {{< /md >}}
   </div>
 </div>
 
-## Usage
+## Использование
 
-Bootstrap Icons are SVGs, so you can include them into your HTML in a few ways depending on how your project is setup. Bootstrap Icons include a `width` and `height` of `1em` by default to allow for easy resizing via `font-size`.
+Иконки Bootstrap - это SVG-файлы, поэтому Вы можете включать их в свой HTML несколькими способами в зависимости от того, как настроен Ваш проект. Иконки Bootstrap по умолчанию включают в себя `width` и `height` равную `1em`, чтобы можно было легко изменять размер с помощью `font-size`.
 
 <div class="row my-4">
   <div class="col-md-4">
 {{< md >}}
-### Embedded
-Embed your icons within the HTML of your page (as opposed to an external image file). Here we've used a custom `width` and `height`.
+### Встраивание
+Встраивайте свои значки в HTML-код своей страницы (а не во внешний файл изображения). Здесь мы использовали нестандартные `width` и `height`.
 {{< /md >}}
   </div>
   <div class="col-md-8">
@@ -45,8 +45,8 @@ Embed your icons within the HTML of your page (as opposed to an external image f
 <div class="row my-4">
   <div class="col-md-4">
 {{< md >}}
-### Sprite
-Use the SVG sprite to insert any icon through the `<use>` element. Use the icon's filename as the fragment identifier (e.g., `toggles` is `#toggles`). SVG sprites allow you to reference an external file similar to an `<img>` element, but with the power of `currentColor` for easy theming.
+### Спрайт
+Используйте спрайт SVG для вставки любого иконки через элемент `<use>`. Используйте имя файла иконки в качестве идентификатора фрагмента (например, `toggles` это `#toggles`). Спрайты SVG позволяют ссылаться на внешний файл, аналогичный элементу `<img>`, но с мощью `currentColor` для упрощения тем.
 {{< /md >}}
   </div>
   <div class="col-md-8">
@@ -67,8 +67,8 @@ Use the SVG sprite to insert any icon through the `<use>` element. Use the icon'
 <div class="row my-4">
   <div class="col-md-4">
 {{< md >}}
-### External image
-Copy the Bootstrap icons SVGs to your directory of choice and reference them like normal images with the `<img>` element.
+### Внешнее изображение
+Скопируйте SVG-файлы иконок Bootstrap в выбранный Вами каталог и ссылайтесь на них, как на обычные изображения, с помощью элемента `<img>`.
 {{< /md >}}
   </div>
   <div class="col-md-8">
@@ -80,9 +80,9 @@ Copy the Bootstrap icons SVGs to your directory of choice and reference them lik
   <div class="col-md-4">
 {{< md >}}
 ### CSS
-You can also use the SVG within your CSS (**be sure to escape any characters**, such as `#` to `%23` when specifying hex color values). When no dimensions are specified via `width` and `height` on the `<svg>`, the icon will fill the available space.
+Вы также можете использовать SVG в своем CSS (** обязательно экранируйте любые символы **, например, от `#` до `%23` при указании шестнадцатеричных значений цвета). Когда никакие размеры не указаны через `width` и `height` в `<svg>`, иконка заполнит доступное пространство.
 
-The `viewBox` attribute is required if you wish to resize icons with `background-size`. Note that the `xmlns` attribute is required.
+Атрибут `viewBox` необходим, если Вы хотите изменить размер иконок с помощью `background-size`. Обратите внимание, что атрибут `xmlns` является обязательным.
 {{< /md >}}
   </div>
   <div class="col-md-8">
@@ -102,8 +102,8 @@ The `viewBox` attribute is required if you wish to resize icons with `background
 <div class="row my-4">
   <div class="col-md-4">
 {{< md >}}
-## Styling
-Color can be changed by setting a `.text-*` class or custom CSS:
+## Стилизация
+Цвет можно изменить, установив класс `.text- *` или собственный CSS:
 {{< /md >}}
   </div>
   <div class="col-md-8">
@@ -122,14 +122,14 @@ Color can be changed by setting a `.text-*` class or custom CSS:
   </div>
 </div>
 
-## Working with SVGs
+## Работа с SVG
 
-SVGs are awesome to work with, but they do have some known quirks to work around. Given the numerous ways in which SVGs can be used, we haven't included these attributes and workarounds in our code.
+С SVG приятно работать, но у них есть некоторые известные особенности, которые нужно обойти. Учитывая множество способов использования SVG, мы не включили эти атрибуты и обходные пути в наш код.
 
-- **Focus handling is broken in Internet Explorer and Edge.** When embedding your SVGs, add `focusable="false"` to the `<svg>` element. [Learn more on Stack Overflow.](https://stackoverflow.com/questions/18646111/disable-onfocus-event-for-svg-element)
+- **Обработка фокуса не работает в Internet Explorer и Edge.** При встраивании SVG добавьте `focusable="false"` в элемент `<svg>`. [Подробнее на Stack Overflow.](https://stackoverflow.com/questions/18646111/disable-onfocus-event-for-svg-element)
 
-- **Browsers inconsistently announce SVGs as `<img>` tags with voice assistance.** Include `role="img"` when possible to avoid any issues. [See this article for details.](https://simplyaccessible.com/article/7-solutions-svgs/#acc-heading-2)
+- **Браузеры непоследовательно объявляют SVG как теги `<img>` с голосовой поддержкой.** По возможности включайте `role =" img "`, чтобы избежать проблем. [Подробнее см. в этой статье.](https://simplyaccessible.com/article/7-solutions-svgs/#acc-heading-2)
 
-- **Safari skips `aria-label` when used non-focusable SVGs.** As such, use `aria-hidden="true"` when embedding the `<svg>` file and use CSS to visually hide an equivalent label. [More details here.](https://simplyaccessible.com/article/7-solutions-svgs/#acc-heading-6)
+- **Safari пропускает `aria-label` при использовании несфокусируемых SVG.** Таким образом, используйте `aria-hidden="true"` при встраивании файла `<svg>` и используйте CSS, чтобы визуально скрыть эквивалентную метку. [Подробнее здесь.](https://simplyaccessible.com/article/7-solutions-svgs/#acc-heading-6)
 
-Found another issue with SVGs we should note? Please open an issue to share details.
+Нашли еще одну проблему с SVG, которую следует отметить? Пожалуйста, откройте запрос, чтобы поделиться подробностями.
