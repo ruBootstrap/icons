@@ -1,6 +1,6 @@
-languageCode:           "en"
+languageCode:           "ru"
 title:                  "Bootstrap Icons"
-baseURL:                "https://icons.getbootstrap.com"
+baseURL:                "https://i.getbootstrap.ru"
 enableInlineShortcodes: true
 enableRobotsTXT:        true
 metaDataFormat:         "yaml"
@@ -42,8 +42,11 @@ params:
   bs_docs_version:      "4.5"
 
   main:                 "https://getbootstrap.com"
+  main_ru:              "https://getbootstrap.su"
   github_org:           "https://github.com/twbs"
+  github_ru:            "https://github.com/ruBootstrap"
   repo:                 "https://github.com/twbs/icons"
+  repo_ru:              "https://github.com/ruBootstrap/icons"
   twitter:              "getbootstrap"
   slack:                "https://bootstrap-slack.herokuapp.com"
   blog:                 "https://blog.getbootstrap.com"
