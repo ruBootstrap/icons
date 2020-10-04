@@ -1,6 +1,6 @@
 languageCode:           "ru"
 title:                  "Bootstrap Icons"
-baseURL:                "https://i.getbootstrap.ru"
+baseURL:                "https://icons.getbootstrap.ru"
 enableInlineShortcodes: true
 enableRobotsTXT:        true
 metaDataFormat:         "yaml"
@@ -51,5 +51,5 @@ params:
   slack:                "https://bootstrap-slack.herokuapp.com"
   blog:                 "https://blog.getbootstrap.com"
   expo:                 "https://expo.getbootstrap.com"
-  themes:               "https://themes.getbootstrap.com"
+  themes:               "https://themes.getbootstrap.su"
   opencollective:       "https://opencollective.com/bootstrap"
