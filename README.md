@@ -7,48 +7,48 @@
 <h3 align="center">Bootstrap Icons</h3>
 
 <p align="center">
-  Official open source SVG icon library for Bootstrap.
+  Официальная библиотека иконок SVG с открытым исходным кодом для Bootstrap.
   <br>
-  <a href="https://icons.getbootstrap.com/"><strong>Explore Bootstrap Icons »</strong></a>
+  <a href="https://icons.getbootstrap.su/"><strong>[RU] Обзор Иконок Bootstrap »</strong></a> | <a href="https://icons.getbootstrap.su/"><strong>[EN] Explore Bootstrap Icons »</strong></a>
   <br>
   <br>
-  <a href="https://getbootstrap.com/docs/4.5/">Bootstrap</a>
+  <a href="https://getbootstrap.su/docs/5.0/">Bootstrap</a>
   ·
-  <a href="https://themes.getbootstrap.com/">Themes</a>
+  <a href="https://themes.getbootstrap.su/">Темы</a>
   ·
-  <a href="https://blog.getbootstrap.com/">Blog</a>
+  <a href="https://blog.getbootstrap.com/">Блог</a>
 </p>
 
 ## 1,100+ icons
 
-[![Bootstrap Icons full set](https://user-images.githubusercontent.com/98681/91365119-402cdc00-e7b5-11ea-9a2c-e1a03aed21c3.png)](https://icons.getbootstrap.com)
+[![Полный набор иконок Bootstrap](https://user-images.githubusercontent.com/98681/91365119-402cdc00-e7b5-11ea-9a2c-e1a03aed21c3.png)](https://icons.getbootstrap.su)
 
-[Also available in Figma.](https://www.figma.com/file/9YmlUAwhMv99G4yP4yN7Jy/Bootstrap-Icons-v1.0.0?node-id=0%3A1)
+[Также доступно в Figma.](https://www.figma.com/file/9YmlUAwhMv99G4yP4yN7Jy/Bootstrap-Icons-v1.0.0?node-id=0%3A1)
 
-## Install
+## Установка
 
-Bootstrap Icons are packaged up and published to npm. We only include the processed SVGs in this package—it's up to you and your team to implement. [Read our docs](https://icons.getbootstrap.com/) for usage instructions.
+Иконки Bootstrap упаковываются и публикуются в npm. Мы включаем в этот пакет только обработанные SVG - для Вас и Вашей команды. [Прочтите нашу документацию](https://icons.getbootstrap.su/) для получения инструкций по использованию.
 
 ```shell
 npm i bootstrap-icons --save
 ```
 
-## Usage
+## Использование
 
-Depending on your setup, you can include Bootstrap Icons in a handful of ways.
+В зависимости от Ваших настроек Вы можете включать иконки Bootstrap несколькими способами.
 
-- Copy-paste SVGs as embedded HTML
-- Reference via `<img>` element
-- Use the SVG sprite
-- Include via CSS
+- Копировать и вставлять SVG как встроенный HTML
+- Ссылка через элемент `<img>`
+- Использовать спрайт SVG
+- Включить через CSS
 
-[See the docs for more information.](https://icons.getbootstrap.com/#usage)
+[См. документацию для получения дополнительной информации.](https://icons.getbootstrap.su/#использование)
 
 ## Development
 
-[![Build Status](https://github.com/twbs/icons/workflows/Tests/badge.svg)](https://github.com/twbs/icons/actions?workflow=Tests)
+[![Статус сборки](https://github.com/twbs/icons/workflows/Tests/badge.svg)](https://github.com/twbs/icons/actions?workflow=Tests)
 
-Clone the repo, install dependencies, and start the Hugo server locally.
+Клонируйте репозиторий, установите зависимости и запустите сервер Hugo локально.
 
 ```shell
 git clone https://github.com/twbs/icons/
@@ -57,36 +57,36 @@ npm i
 npm start
 ```
 
-Then open `http://localhost:4000` in your browser.
+Затем откройте в браузере `http://localhost:4000`.
 
-### npm scripts
+### Скрипты npm
 
-Here are some key scripts you'll use during development. Be sure to look to our `package.json` for a complete list of scripts.
+Вот несколько ключевых сценариев, которые Вы будете использовать во время разработки. Не забудьте заглянуть в наш `package.json` для получения полного списка скриптов.
 
-| Script | Description |
-| --- | --- |
-| `start` | Alias for running `docs-serve` |
-| `docs-serve` | Starts a local Hugo server |
-| `pages` | Generates permalink pages for each icon with template Markdown |
-| `icons` | Processes and optimizes SVGs in `icons` directory |
+| Скрипт       | Описание |
+| ------------ | --- |
+| `start`      | Псевдоним для запуска `docs-serve` |
+| `docs-serve` | Запускает локальный сервер Hugo |
+| `pages`      | Создает страницы с постоянными ссылками для каждой иконки с помощью шаблона Markdown |
+| `icons`      | Обрабатывает и оптимизирует SVG в каталоге `icons` |
 
-## Adding SVGs
+## Добавление SVG
 
-Once a new SVG icon has been added to the `icons` directory, you'll need to optimize them. An npm script is used to:
+После того, как новая иконка SVG была добавлена в каталог `icons`, Вам нужно будет их оптимизировать. Сценарий npm используется для:
 
-1. Optimize our SVGs with SVGO.
-2. Modify the SVGs source HTML, removing all attributes before setting new attributes and values in our preferred order.
+1. Оптимизируйте наши SVG с помощью SVGO.
+2. Измените исходный HTML-код SVG, удалив все атрибуты перед установкой новых атрибутов и значений в нашем предпочтительном порядке.
 
-Use `npm run icons` to run the script, run `npm run pages` to build permalink pages, complete those pages, and, finally, commit the results in a new branch for updating.
+Используйте `npm run icons` для запуска скрипта, запустите `npm run pages` для создания страниц с постоянными ссылками, заполните эти страницы и, наконец, зафиксируйте результаты в новой ветке для обновления.
 
-## Publishing
+## Публикация
 
-Documentation is published automatically when a new Git tag is published. See our GitHub Actions and `package.json` for more information.
+Документация публикуется автоматически при публикации нового тега Git. См. наши Действия GitHub и `package.json` для получения дополнительной информации.
 
-## License
+## Лицензия
 
 MIT
 
-## Author
+## Автор
 
 [@mdo](https://github.com/mdo)
