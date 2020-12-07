@@ -21,9 +21,9 @@
 
 ## 1,100+ icons
 
-[![Полный набор иконок Bootstrap](https://user-images.githubusercontent.com/98681/91365119-402cdc00-e7b5-11ea-9a2c-e1a03aed21c3.png)](https://icons.getbootstrap.su)
+[![Полный набор иконок Bootstrap](https://github.com/twbs/icons/blob/main/.github/preview.png)](https://icons.getbootstrap.com)
 
-[Также доступно в Figma.](https://www.figma.com/file/9YmlUAwhMv99G4yP4yN7Jy/Bootstrap-Icons-v1.0.0?node-id=0%3A1)
+[Также доступно в Figma.](https://www.figma.com/file/6jIgJymnRpMjGSMG2BKNRe/Bootstrap-Icons-v1.1.0?node-id=0%3A1)
 
 ## Установка
 
@@ -81,7 +81,7 @@ npm start
 
 ## Публикация
 
-Документация публикуется автоматически при публикации нового тега Git. См. наши Действия GitHub и `package.json` для получения дополнительной информации.
+Документация публикуется автоматически при публикации нового тега Git. Смотрите наши [GitHub Actions](https://github.com/twbs/icons/tree/main/.github/workflows) и [`package.json`](https://github.com/twbs/icons/blob/main/package.json) для получения дополнительной информации.
 
 ## Лицензия
 

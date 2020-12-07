@@ -93,11 +93,11 @@
         }
       })
 
-      clipboard.on('success', function (e) {
-        e.clearSelection()
-        e.trigger.textContent = 'Скопировано!'
+      clipboard.on('success', function (event) {
+        event.clearSelection()
+        event.trigger.textContent = 'Скопировано!'
         setTimeout(function () {
-          e.trigger.textContent = 'Копировать'
+          event.trigger.textContent = 'Копировать'
         }, 2000);
       })
 
@@ -106,7 +106,9 @@
         var fallbackMsg = 'Press ' + modifierKey + 'C для копирования'
         var errorElement = document.getElementById('copy-error-callout')
 
-        if (!errorElement) return
+        if (!errorElement) {
+          return
+        }
 
         errorElement.classList.remove('d-none')
         errorElement.insertAdjacentHTML('afterbegin', fallbackMsg)

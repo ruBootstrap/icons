@@ -122,14 +122,26 @@ npm install bootstrap-icons
   </div>
 </div>
 
+<div class="row my-4">
+  <div class="col-md-4">
+{{< md >}}
 ## Работа с SVG
-
 С SVG приятно работать, но у них есть некоторые известные особенности, которые нужно обойти. Учитывая множество способов использования SVG, мы не включили эти атрибуты и обходные пути в наш код.
+{{< /md >}}
+  </div>
+  <div class="col-md-8">
+{{< md >}}
+К известным проблемам относятся:
 
-- **Обработка фокуса не работает в Internet Explorer и Edge.** При встраивании SVG добавьте `focusable="false"` в элемент `<svg>`. [Подробнее на Stack Overflow.](https://stackoverflow.com/questions/18646111/disable-onfocus-event-for-svg-element)
+- **Не работает обработка фокуса в Internet Explorer и Edge Legacy.** При встраивании SVG добавьте `focusable="false"` к элементу `<svg>`. [Подробнее yf Stack Overflow.](https://stackoverflow.com/questions/18646111/disable-onfocus-event-for-svg-element)
 
 - **Браузеры непоследовательно объявляют SVG как теги `<img>` с голосовой поддержкой.** По возможности включайте `role =" img "`, чтобы избежать проблем. [Подробнее см. в этой статье.](https://simplyaccessible.com/article/7-solutions-svgs/#acc-heading-2)
 
 - **Safari пропускает `aria-label` при использовании несфокусируемых SVG.** Таким образом, используйте `aria-hidden="true"` при встраивании файла `<svg>` и используйте CSS, чтобы визуально скрыть эквивалентную метку. [Подробнее здесь.](https://simplyaccessible.com/article/7-solutions-svgs/#acc-heading-6)
 
-Нашли еще одну проблему с SVG, которую следует отметить? Пожалуйста, откройте запрос, чтобы поделиться подробностями.
+- **Внешние спрайты SVG могут некорректно работать в Internet Explorer.** Использовать [svg4everybody](https://github.com/jonathantneal/svg4everybody) polyfill as needed.
+
+Нашли еще одну проблему с SVG, на которую следует обратить внимание? Пожалуйста, откройте вопрос, чтобы поделиться подробностями.
+{{< /md >}}
+  </div>
+</div>
