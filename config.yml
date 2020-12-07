@@ -40,7 +40,7 @@ params:
 
   version:              "1.1.0"
   version_translate:    "1.1.0"
-  bs_docs_version:      "4.5"
+  bs_docs_version:      "5.0"
 
   main:                 "https://getbootstrap.com"
   main_translate:       "https://getbootstrap.su"
