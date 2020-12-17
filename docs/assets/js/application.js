@@ -5,7 +5,7 @@
 (function () {
   'use strict'
 
-  var btnHtml = '<div class="bd-clipboard"><button type="button" class="btn-clipboard" title="Copy to clipboard"><svg class="bi" width="1em" height="1em" fill="currentColor"><use xlink:href="/bootstrap-icons.svg#clipboard"/></svg></button></div>';
+  var btnHtml = '<div class="bd-clipboard"><button type="button" class="btn-clipboard" title="Скопировать в буфер обмена"><svg class="bi" width="1em" height="1em" fill="currentColor"><use xlink:href="/bootstrap-icons.svg#clipboard"/></svg></button></div>';
 
   [].slice.call(document.querySelectorAll('div.highlight'))
     .forEach(function (element) {
@@ -26,7 +26,7 @@
 
     event.clearSelection()
     iconFirstChild.setAttributeNS(namespace, 'href', originalXhref.replace('clipboard', 'check2'))
-    event.trigger.title = "Copied!"
+    event.trigger.title = "Скопировано!"
 
     setTimeout(function () {
       iconFirstChild.setAttributeNS(namespace, 'href', originalXhref)
@@ -36,7 +36,7 @@
 
   clipboard.on('error', function () {
     var modifierKey = /mac/i.test(navigator.userAgent) ? '\u2318' : 'Ctrl-'
-    var fallbackMsg = 'Press ' + modifierKey + 'C to copy'
+    var fallbackMsg = 'Нажмите ' + modifierKey + 'C для копирования'
     var errorElement = document.getElementById('copy-error-callout')
 
     if (!errorElement) {

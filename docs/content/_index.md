@@ -79,10 +79,10 @@ npm i bootstrap-icons
 <div class="row my-4">
   <div class="col-md-4">
 {{< md >}}
-### Icon font
-Icon fonts with classes for every icon are also included for Bootstrap Icons. Include the icon web fonts in your page via CSS, then reference the class names as needed in your HTML (e.g., `<i class="bi-alarm-clock"></i>`).
+### Шрифт иконки
+Иконочные шрифты с классами для каждой иконки также включены в Bootstrap Icons. Включите веб-шрифты иконок на свою страницу с помощью CSS, затем укажите имена классов, если это необходимо в Вашем HTML (например, `<i class="bi-alarm-clock"></i>`).
 
-Use `font-size` and `color` to change the icon appearance.
+Используйте `font-size` и `color`, чтобы изменить внешний вид иконки.
 {{< /md >}}
   </div>
   <div class="col-md-8">
@@ -154,7 +154,7 @@ Use `font-size` and `color` to change the icon appearance.
 
 - **Safari пропускает `aria-label` при использовании несфокусируемых SVG.** Таким образом, используйте `aria-hidden="true"` при встраивании файла `<svg>` и используйте CSS, чтобы визуально скрыть эквивалентную метку. [Подробнее здесь.](https://simplyaccessible.com/article/7-solutions-svgs/#acc-heading-6)
 
-- **Внешние спрайты SVG могут некорректно работать в Internet Explorer.** Использовать [svg4everybody](https://github.com/jonathantneal/svg4everybody) polyfill as needed.
+- **Внешние спрайты SVG могут некорректно работать в Internet Explorer.** При необходимости используйте полифилл [svg4everybody](https://github.com/jonathantneal/svg4everybody).
 
 Нашли еще одну проблему с SVG, на которую следует обратить внимание? Пожалуйста, откройте вопрос, чтобы поделиться подробностями.
 {{< /md >}}

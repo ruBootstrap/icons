@@ -20,9 +20,9 @@
           <h1>{{ .Title }}</h1>
           <p class="mb-3 mb-md-0"><strong>Теги:</strong> {{ with .Params.tags }}{{ delimit . ", " }}{{ end }}</p>
         </div>
-        <div class="col-md-6 col-lg-4">
+        <!-- <div class="col-md-6 col-lg-4">
           <script async src="https://cdn.carbonads.com/carbon.js?serve=CE7D4277&placement=iconsgetbootstrapcom" id="_carbonads_js"></script>
-        </div>
+        </div> -->
       </div>
 
       <hr class="my-4">
@@ -77,7 +77,7 @@
         <div class="col-lg-4 mb-4">
           <h2 class="fs-3">Скачать</h2>
           <p>Щелкните правой кнопкой мыши и сохраните как, чтобы загрузить SVG.</p>
-          <a href='{{ printf "/%s/%s.svg" "icons" .File.TranslationBaseName }}' class="btn btn-bd-primary mb-4">Download SVG</a>
+          <a href='{{ printf "/%s/%s.svg" "icons" .File.TranslationBaseName }}' class="btn btn-bd-primary mb-4">Скачать SVG</a>
 
           <h2 class="fs-3">Шрифт иконки</h2>
           <p>Используете веб-шрифт? Скопируйте, вставьте и вперед.</p>
@@ -87,8 +87,8 @@
             {{ highlight $iconFontSnippet "html" "" }}
           </div>
 
-          <h2 class="fs-3">Copy HTML</h2>
-          <p>Paste the SVG right into your project's code.</p>
+          <h2 class="fs-3">Копировать HTML</h2>
+          <p>Вставьте SVG прямо в код Вашего проекта.</p>
 
           <div id="copy-error-callout" class="alert alert-info d-none" role="alert"></div>
 
