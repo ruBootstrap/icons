@@ -1402,6 +1402,15 @@
     <loc>https://icons.getbootstrap.su/icons/dice-6-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/disc/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/disc-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/discord/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/display/</loc>
   </url>
   <url>
@@ -1568,6 +1577,9 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/eyeglasses/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/facebook/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/file/</loc>
@@ -2074,10 +2086,16 @@
     <loc>https://icons.getbootstrap.su/icons/gift-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/github/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/globe/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/globe2/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/google/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/graph-down/</loc>
@@ -2278,6 +2296,9 @@
     <loc>https://icons.getbootstrap.su/icons/input-cursor-text/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/instagram/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/intersect/</loc>
   </url>
   <url>
@@ -2426,6 +2447,9 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/link-45deg/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/linkedin/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/list/</loc>
@@ -2617,6 +2641,18 @@
     <loc>https://icons.getbootstrap.su/icons/pause/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/pause-btn/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/pause-btn-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/pause-circle/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/pause-circle-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/pause-fill/</loc>
   </url>
   <url>
@@ -2737,6 +2773,18 @@
     <loc>https://icons.getbootstrap.su/icons/play/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/play-btn/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/play-btn-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/play-circle/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/play-circle-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/play-fill/</loc>
   </url>
   <url>
@@ -2822,6 +2870,30 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/reception-4/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/record/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/record-btn/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/record-btn-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/record-circle/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/record-circle-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/record-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/record2/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/record2-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/reply/</loc>
@@ -2956,10 +3028,34 @@
     <loc>https://icons.getbootstrap.su/icons/skip-backward/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/skip-backward-btn/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/skip-backward-btn-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/skip-backward-circle/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/skip-backward-circle-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/skip-backward-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/skip-end/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/skip-end-btn/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/skip-end-btn-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/skip-end-circle/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/skip-end-circle-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/skip-end-fill/</loc>
@@ -2968,13 +3064,40 @@
     <loc>https://icons.getbootstrap.su/icons/skip-forward/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/skip-forward-btn/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/skip-forward-btn-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/skip-forward-circle/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/skip-forward-circle-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/skip-forward-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/skip-start/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/skip-start-btn/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/skip-start-btn-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/skip-start-circle/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/skip-start-circle-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/skip-start-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/slack/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/slash/</loc>
@@ -3074,6 +3197,18 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/stop/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/stop-btn/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/stop-btn-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/stop-circle/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/stop-circle-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/stop-fill/</loc>
@@ -3304,6 +3439,12 @@
     <loc>https://icons.getbootstrap.su/icons/tv-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/twitch/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/twitter/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/type/</loc>
   </url>
   <url>
@@ -3365,6 +3506,12 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/view-stacked/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/vinyl/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/vinyl-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/voicemail/</loc>
@@ -3452,6 +3599,9 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/x-square-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/youtube/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/zoom-in/</loc>
