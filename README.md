@@ -12,25 +12,25 @@
   <a href="https://icons.getbootstrap.su/"><strong>[RU] Обзор Иконок Bootstrap »</strong></a> | <a href="https://icons.getbootstrap.su/"><strong>[EN] Explore Bootstrap Icons »</strong></a>
   <br>
   <br>
-  <a href="https://getbootstrap.su/docs/5.0/">Bootstrap</a>
+  <a href="https://getbootstrap.su/">Bootstrap</a>
   ·
   <a href="https://themes.getbootstrap.com/">Темы</a>
   ·
   <a href="https://blog.getbootstrap.com/">Блог</a>
 </p>
 
-## 1,100+ icons
+## 1,200+ icons
 
 [![Полный набор иконок Bootstrap](https://github.com/twbs/icons/blob/main/.github/preview.png)](https://icons.getbootstrap.com)
 
-[Также доступно в Figma.](https://www.figma.com/file/6jIgJymnRpMjGSMG2BKNRe/Bootstrap-Icons-v1.1.0?node-id=0%3A1)
+[Также доступно в Figma.](https://www.figma.com/file/JeBqM2fRcfIe7wMDgNZG6d/Bootstrap-Icons-v1.2.0?node-id=0%3A1)
 
 ## Установка
 
 Иконки Bootstrap упаковываются и публикуются в npm. Мы включаем в этот пакет только обработанные SVG - для Вас и Вашей команды. [Прочтите нашу документацию](https://icons.getbootstrap.su/) для получения инструкций по использованию.
 
 ```shell
-npm i bootstrap-icons --save
+npm i bootstrap-icons
 ```
 
 ## Использование

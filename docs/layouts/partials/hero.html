@@ -1,31 +1,41 @@
-<div class="hero py-5">
+<div class="hero py-5 text-center text-lg-start">
   <div class="container">
-    <h1 class="f0">Bootstrap Icons</h1>
-    <p class="mb-4 f3 font-weight-normal">Впервые в истории Bootstrap есть собственная библиотека иконок, специально разработанная и созданная для наших компонентов и документации - и теперь доступная для любого проекта.</p>
-
-    <div class="row text-muted">
-      <div class="col-sm">
-        <p>Иконки Bootstrap предназначены для работы с компонентами <a href="{{ .Site.Params.main_translate }}/">Bootstrap</a>, от элементов управления формы до навигации. Но они также будут работать практически в любом проекте. Это связано с тем, что иконки Bootstrap - это SVG, поэтому они быстро и легко масштабируются и могут быть стилизованы с помощью CSS.</p>
+    <div class="row flex-lg-row-reverse">
+      <div class="col-6 mx-auto col-lg-5 mx-lg-0">
+        <img srcset="/assets/img/icons-hero.png, /assets/img/icons-hero@2x.png 2x"
+             src="/assets/img/icons-hero.png"
+             class="img-fluid my-3 mx-auto"
+             alt="Иконки Bootstrap" width="450" height="340" loading="lazy">
       </div>
-      <div class="col-sm">
-        <p>Они имеют открытый исходный код (MIT), поэтому Вы можете бесплатно загружать, использовать и расширять любой значок. Каждый SVG можно скопировать прямо здесь, или Вы можете использовать <a href="#спрайт">SVG спрайт</a>.</p>
+      <div class="col-lg-7">
+        <a class="d-inline-block py-1 px-3 mb-4 text-dark text-decoration-none rounded-pill hero-notice" href="{{ .Site.Params.blog }}/2020/12/11/bootstrap-icons-1-2-0/">
+          <strong>Новое в v1.2.0:</strong> Иконочные шрифты, значки социальных сетей и значки мультимедиа!
+        </a>
+        <h1 class="f0">Иконки Bootstrap</h1>
+        <p class="mb-4 f3 font-weight-normal">Бесплатная высококачественная библиотека значков с открытым исходным кодом, содержащая почти 1200 значков. Включите их как хотите - SVG, спрайты SVG или веб-шрифты. Используйте их с <a href="{{ .Site.Params.main }}/">Bootstrap</a> или без него в любом проекте.</p>
+
+        <div class="fs-5 d-inline-block mb-3">
+          {{ highlight "npm i bootstrap-icons" "sh" "" }}
+        </div>
+
+        {{ partialCached "ads" . }}
+
+        <hr class="mx-auto mx-lg-0 my-5">
+
+        <p class="text-muted">
+          Текущая v{{ .Site.Params.version }}
+          <span class="px-1">&#8226;</span>
+          <a href="#icons">Иконки</a>
+          <span class="px-1">&#8226;</span>
+          <a href="#install">Установка</a>
+          <span class="px-1">&#8226;</span>
+          <a href="#usage">Применение</a>
+          <span class="px-1">&#8226;</span>
+          <a href="#styling">Styling</a>
+          <span class="px-1">&#8226;</span>
+          <a href="{{ .Site.Params.repo }}">GitHub репозиторий</a>
+        </p>
       </div>
     </div>
-
-    <hr class="my-4">
-
-    <p class="text-muted">
-      Текущая версия v{{ .Site.Params.version }}
-      <span class="px-1">&#8226;</span>
-      <a href="#icons">Иконки</a>
-      <span class="px-1">&#8226;</span>
-      <a href="#установка">Установка</a>
-      <span class="px-1">&#8226;</span>
-      <a href="#использование">Применение</a>
-      <span class="px-1">&#8226;</span>
-      <a href="#стилизация">Стилизация</a>
-      <span class="px-1">&#8226;</span>
-      <a href="{{ .Site.Params.repo }}">Репозиторий на GitHub</a>
-    </p>
   </div>
 </div>

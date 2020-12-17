@@ -33,13 +33,17 @@ module:
       target:           static/favicon.ico
     - source:           bootstrap-icons.svg
       target:           static/bootstrap-icons.svg
+    - source:           icons
+      target:           static/icons
+    - source:           font
+      target:           static/font
 
 params:
   description:          "Official open source SVG icon library for Bootstrap"
   social_image_path:    /assets/img/bootstrap-icons-social.png
 
-  version:              "1.1.0"
-  version_translate:    "1.1.0"
+  version:              "1.2.1"
+  version_translate:    "1.2.1"
   bs_docs_version:      "5.0"
 
   main:                 "https://getbootstrap.com"

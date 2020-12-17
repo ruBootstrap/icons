@@ -11,15 +11,15 @@
 ### npm
 Установите иконки Bootstrap через командную строку с помощью npm.
 
-{{< highlight shell >}}
-npm install bootstrap-icons
+{{< highlight sh >}}
+npm i bootstrap-icons
 {{< /highlight >}}
 {{< /md >}}
   </div>
   <div class="col-md-6">
 {{< md >}}
 ### Скачать
-Наши [релизы]](https://github.com/twbs/icons/releases/) публикуются на GitHub. В комплект включены все иконки SVG, а также файлы лицензии и readme. Наш `package.json` также включен, хотя наши сценарии npm в основном доступны для наших рабочих процессов разработки.
+[Все релизы публикуются на GitHub](https://github.com/twbs/icons/releases/) и включают значки SVG, лицензию и файл readme. Наш `package.json` также включен, хотя наши сценарии npm в основном доступны для наших рабочих процессов разработки.
 
 <a class="btn btn-outline-primary" href="https://github.com/twbs/icons/releases/latest/">Скачать последнюю версию в ZIP</a>
 {{< /md >}}
@@ -73,6 +73,21 @@ npm install bootstrap-icons
   </div>
   <div class="col-md-8">
     {{< example >}}<img src="/assets/img/bootstrap.svg" alt="" width="32" height="32" title="Bootstrap">{{< /example >}}
+  </div>
+</div>
+
+<div class="row my-4">
+  <div class="col-md-4">
+{{< md >}}
+### Icon font
+Icon fonts with classes for every icon are also included for Bootstrap Icons. Include the icon web fonts in your page via CSS, then reference the class names as needed in your HTML (e.g., `<i class="bi-alarm-clock"></i>`).
+
+Use `font-size` and `color` to change the icon appearance.
+{{< /md >}}
+  </div>
+  <div class="col-md-8">
+    {{< example >}}<i class="bi-alarm"></i>{{< /example >}}
+    {{< example >}}<i class="bi-alarm" style="font-size: 2rem; color: cornflowerblue;"></i>{{< /example >}}
   </div>
 </div>
 
