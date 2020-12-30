@@ -1,12 +1,13 @@
 name: Deploy
 
 on:
-  push:
-    tags:
-      - '*'
+  release:
+    types: 
+      - published
 
 env:
   CI: true
+  FORCE_COLOR: 2
   NODE: 14.x
 
 jobs:

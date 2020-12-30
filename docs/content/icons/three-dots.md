@@ -3,7 +3,9 @@ title: Three dots
 categories:
   - Controls
 tags:
-  - kebab
+  - meatballs
   - more
   - ellipsis
+  - overflow
+  - menu
 ---
