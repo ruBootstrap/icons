@@ -295,6 +295,12 @@
     <loc>https://icons.getbootstrap.su/icons/backspace-reverse-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/badge-3d/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/badge-3d-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/badge-4k/</loc>
   </url>
   <url>
@@ -311,6 +317,12 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/badge-ad-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/badge-ar/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/badge-ar-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/badge-cc/</loc>
@@ -335,6 +347,18 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/badge-vo-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/badge-vr/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/badge-vr-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/badge-wc/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/badge-wc-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/bag/</loc>
@@ -508,7 +532,37 @@
     <loc>https://icons.getbootstrap.su/icons/bootstrap-reboot/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/border/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/border-all/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/border-bottom/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/border-center/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/border-inner/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/border-left/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/border-middle/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/border-outer/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/border-right/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/border-style/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/border-top/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/border-width/</loc>
@@ -1336,10 +1390,16 @@
     <loc>https://icons.getbootstrap.su/icons/dash-circle/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/dash-circle-dotted/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/dash-circle-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/dash-square/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/dash-square-dotted/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/dash-square-fill/</loc>
@@ -1552,6 +1612,12 @@
     <loc>https://icons.getbootstrap.su/icons/envelope-open-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/eraser/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/eraser-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/exclamation/</loc>
   </url>
   <url>
@@ -1574,6 +1640,9 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/eye-slash-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/eyedropper/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/eyeglasses/</loc>
@@ -2146,13 +2215,25 @@
     <loc>https://icons.getbootstrap.su/icons/hand-index/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/hand-index-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/hand-index-thumb/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/hand-index-thumb-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/hand-thumbs-down/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/hand-thumbs-down-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/hand-thumbs-up/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/hand-thumbs-up-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/handbag/</loc>
@@ -2392,6 +2473,12 @@
     <loc>https://icons.getbootstrap.su/icons/laptop-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/layer-backward/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/layer-forward/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/layers/</loc>
   </url>
   <url>
@@ -2435,6 +2522,18 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/life-preserver/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/lightbulb/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/lightbulb-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/lightbulb-off/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/lightbulb-off-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/lightning/</loc>
@@ -2497,6 +2596,15 @@
     <loc>https://icons.getbootstrap.su/icons/markdown-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/mask/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/megaphone/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/megaphone-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/menu-app/</loc>
   </url>
   <url>
@@ -2545,10 +2653,19 @@
     <loc>https://icons.getbootstrap.su/icons/mouse/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/mouse-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/mouse2/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/mouse2-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/mouse3/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/mouse3-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/music-note/</loc>
@@ -2600,6 +2717,18 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/outlet/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/paint-bucket/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/palette/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/palette-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/palette2/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/paperclip/</loc>
@@ -2758,10 +2887,25 @@
     <loc>https://icons.getbootstrap.su/icons/phone-vibrate/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/phone-vibrate-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/pie-chart/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/pie-chart-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/pin/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/pin-angle/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/pin-angle-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/pin-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/pip/</loc>
@@ -2800,10 +2944,16 @@
     <loc>https://icons.getbootstrap.su/icons/plus-circle/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/plus-circle-dotted/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/plus-circle-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/plus-square/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/plus-square-dotted/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/plus-square-fill/</loc>
@@ -2912,6 +3062,21 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/rss-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/rulers/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/save/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/save-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/save2/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/save2-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/scissors/</loc>
@@ -3163,6 +3328,12 @@
     <loc>https://icons.getbootstrap.su/icons/speaker-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/speedometer/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/speedometer2/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/spellcheck/</loc>
   </url>
   <url>
@@ -3173,6 +3344,9 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/square-half/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/stack/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/star/</loc>
@@ -3259,6 +3433,12 @@
     <loc>https://icons.getbootstrap.su/icons/sunglasses/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/symmetry-horizontal/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/symmetry-vertical/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/table/</loc>
   </url>
   <url>
@@ -3284,6 +3464,9 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/tags-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/telegram/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/telephone/</loc>
@@ -3556,6 +3739,9 @@
     <loc>https://icons.getbootstrap.su/icons/watch/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/whatsapp/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/wifi/</loc>
   </url>
   <url>
@@ -3569,6 +3755,12 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/window/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/window-dock/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/window-sidebar/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/wrench/</loc>
