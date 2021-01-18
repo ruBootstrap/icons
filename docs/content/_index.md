@@ -6,22 +6,36 @@
 Иконки Bootstrap публикуются в npm, но при необходимости их также можно загрузить вручную.
 
 <div class="row my-4">
-  <div class="col-md-6">
+  <div class="col-md-4">
 {{< md >}}
 ### npm
-Установите иконки Bootstrap через командную строку с помощью npm.
+Установите [Bootstrap Icons](https://www.npmjs.com/package/bootstrap-icons), включая SVG, спрайты значков и шрифты значков, с помощью npm. Затем выберите, кому Вы хотите добавить иконки в [инструкции по использованию](#usage).
 
 {{< highlight sh >}}
 npm i bootstrap-icons
 {{< /highlight >}}
 {{< /md >}}
   </div>
-  <div class="col-md-6">
+  <div class="col-md-4">
 {{< md >}}
 ### Скачать
-[Все релизы публикуются на GitHub](https://github.com/twbs/icons/releases/) и включают значки SVG, лицензию и файл readme. Наш `package.json` также включен, хотя наши сценарии npm в основном доступны для наших рабочих процессов разработки.
+[Releases are published on GitHub](https://github.com/twbs/icons/releases/) and include icon SVGs, fonts, license, and readme. Our `package.json` is also included, though our npm scripts are primarily available for our development workflows.
 
 <a class="btn btn-outline-primary" href="https://github.com/twbs/icons/releases/latest/">Скачать последнюю версию в ZIP</a>
+{{< /md >}}
+  </div>
+  <div class="col-md-4">
+{{< md >}}
+### CDN
+Include the icon fonts stylesheet—in your website `<head>` or via `@import` in CSS—from our CDN and get started in seconds. [See icon font docs](#icon-font) for examples.
+
+{{< highlight html >}}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@{{< param version >}}/font/bootstrap-icons.css">
+{{< /highlight >}}
+
+{{< highlight css >}}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@{{< param version >}}/font/bootstrap-icons.css");
+{{< /highlight >}}
 {{< /md >}}
   </div>
 </div>
