@@ -29,7 +29,7 @@ npm i bootstrap-icons
   <div class="col-md-4">
 {{< md >}}
 ### CDN
-Включите таблицу стилей шрифтов иконок - на свой веб-сайт `<head>` или через `@import` в CSS - из нашей CDN и приступайте к работе за секунды. [Смотрите документацию по шрифтам иконок](#icon-font) для примеров.
+Включите таблицу стилей шрифтов иконок - на свой веб-сайт `<head>` или через `@import` в CSS - из нашей CDN и приступайте к работе за секунды. [Смотрите документацию по шрифтам иконок](#шрифт-иконки) для примеров.
 
 {{< highlight html >}}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@{{< param version >}}/font/bootstrap-icons.css">
