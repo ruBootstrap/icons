@@ -9,7 +9,7 @@
   <div class="col-md-4">
 {{< md >}}
 ### npm
-Установите [Bootstrap Icons](https://www.npmjs.com/package/bootstrap-icons), включая SVG, спрайты значков и шрифты значков, с помощью npm. Затем выберите, кому Вы хотите добавить иконки в [инструкции по использованию](#использование).
+Установите [Bootstrap Icons](https://www.npmjs.com/package/bootstrap-icons), включая SVG, спрайты иконок и шрифты иконок, с помощью npm. Затем выберите, кому Вы хотите добавить иконки в [инструкции по использованию](#использование).
 
 {{< highlight sh >}}
 npm i bootstrap-icons
@@ -19,15 +19,17 @@ npm i bootstrap-icons
   <div class="col-md-4">
 {{< md >}}
 ### Скачать
-[Релизы публикуются на GitHub](https://github.com/twbs/icons/releases/) и включают значки SVG, шрифты, лицензию и файл readme. Наш `package.json` также включен, хотя наши сценарии npm в основном доступны для наших рабочих процессов разработки.
+[Релизы публикуются на GitHub](https://github.com/twbs/icons/releases/) и включают иконки SVG, шрифты, лицензию и файл readme. Наш `package.json` также включен, хотя наши сценарии npm в основном доступны для наших рабочих процессов разработки.
 
-<a class="btn btn-outline-primary" href="https://github.com/twbs/icons/releases/latest/">Скачать последнюю версию в ZIP</a>
+{{< highlight css >}}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@{{< param version >}}/font/bootstrap-icons.css");
+{{< /highlight >}}
 {{< /md >}}
   </div>
   <div class="col-md-4">
 {{< md >}}
 ### CDN
-Включите таблицу стилей шрифтов иконок - на свой веб-сайт `<head>` или через `@import` в CSS - из нашей CDN и приступайте к работе за секунды. [Смотрите документацию по шрифтам иконок](#шрифт-иконки) для примеров.
+Включите таблицу стилей шрифтов иконок - на свой веб-сайт `<head>` или через `@import` в CSS - из нашей CDN и приступайте к работе за секунды. [Смотрите документацию по шрифтам иконок](#icon-font) для примеров.
 
 {{< highlight html >}}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@{{< param version >}}/font/bootstrap-icons.css">
@@ -82,11 +84,11 @@ npm i bootstrap-icons
   <div class="col-md-4">
 {{< md >}}
 ### Внешнее изображение
-Скопируйте SVG-файлы иконок Bootstrap в выбранный Вами каталог и ссылайтесь на них, как на обычные изображения, с помощью элемента `<img>`.
+Скопируйте SVG-файлы Bootstrap Icons в выбранный Вами каталог и укажите на них ссылки, как на обычные изображения, с помощью элемента `<img>`.
 {{< /md >}}
   </div>
   <div class="col-md-8">
-    {{< example >}}<img src="/assets/img/bootstrap.svg" alt="" width="32" height="32" title="Bootstrap">{{< /example >}}
+    {{< example >}}<img src="/assets/img/bootstrap.svg" alt="Bootstrap" width="32" height="32">{{< /example >}}
   </div>
 </div>
 
@@ -162,15 +164,13 @@ npm i bootstrap-icons
 {{< md >}}
 К известным проблемам относятся:
 
-- **Не работает обработка фокуса в Internet Explorer и Edge Legacy.** При встраивании SVG добавьте `focusable="false"` к элементу `<svg>`. [Подробнее yf Stack Overflow.](https://stackoverflow.com/questions/18646111/disable-onfocus-event-for-svg-element)
+- **SVG получают фокус по умолчанию в Internet Explorer и Edge Legacy.** При встраивании SVG добавьте `focusable="false"` в элемент `<svg>`. [Подробнее на Stack Overflow.](https://stackoverflow.com/questions/18646111/disable-onfocus-event-for-svg-element)
 
-- **Браузеры непоследовательно объявляют SVG как теги `<img>` с голосовой поддержкой.** По возможности включайте `role =" img "`, чтобы избежать проблем. [Подробнее см. в этой статье.](https://simplyaccessible.com/article/7-solutions-svgs/#acc-heading-2)
-
-- **Safari пропускает `aria-label` при использовании несфокусируемых SVG.** Таким образом, используйте `aria-hidden="true"` при встраивании файла `<svg>` и используйте CSS, чтобы визуально скрыть эквивалентную метку. [Подробнее здесь.](https://simplyaccessible.com/article/7-solutions-svgs/#acc-heading-6)
+- **При использовании SVG с элементами `<img>` программы чтения с экрана могут не объявлять их как изображения или полностью пропускать изображение.** Включите дополнительный `role="img"` в элемент `<img>`, чтобы избегать любых проблем. [Подробнее смотрите в этой статье.](https://simplyaccessible.com/article/7-solutions-svgs/#acc-heading-2)
 
 - **Внешние спрайты SVG могут некорректно работать в Internet Explorer.** При необходимости используйте полифилл [svg4everybody](https://github.com/jonathantneal/svg4everybody).
 
-Нашли еще одну проблему с SVG, на которую следует обратить внимание? Пожалуйста, откройте вопрос, чтобы поделиться подробностями.
+Нашли еще одну проблему с SVG, которую следует отметить? Пожалуйста, откройте [вопрос]({{< param repo >}}/issues), чтобы поделиться подробностями.
 {{< /md >}}
   </div>
 </div>
