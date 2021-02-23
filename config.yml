@@ -4,7 +4,7 @@ baseURL:                "https://icons.getbootstrap.su"
 enableInlineShortcodes: true
 enableRobotsTXT:        true
 metaDataFormat:         "yaml"
-disableKinds:           ["404", "taxonomy", "taxonomyTerm", "RSS"]
+disableKinds:           ["404", "taxonomy", "term", "RSS"]
 
 publishDir:             "_site"
 
@@ -34,7 +34,7 @@ module:
     - source:           bootstrap-icons.svg
       target:           static/bootstrap-icons.svg
     - source:           icons
-      target:           static/icons
+      target:           static/assets/icons
     - source:           font
       target:           static/font
 
@@ -42,8 +42,8 @@ params:
   description:          "Официальная библиотека иконок SVG с открытым исходным кодом для Bootstrap"
   social_image_path:    /assets/img/bootstrap-icons-social.png
 
-  version:              "1.3.0"
-  version_translate:    "1.3.0"
+  version:              "1.4.0"
+  version_translate:    "1.4.0"
   bs_docs_version:      "5.0"
 
   main:                 "https://getbootstrap.com"

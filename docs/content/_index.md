@@ -121,6 +121,7 @@ npm i bootstrap-icons
 .bi::before {
   display: inline-block;
   content: "";
+  vertical-align: -.125em;
   background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z' clip-rule='evenodd'/></svg>");
   background-repeat: no-repeat;
   background-size: 1rem 1rem;
@@ -147,6 +148,49 @@ npm i bootstrap-icons
     </div>
 {{< highlight html >}}
 <svg class="bi bi-alert-triangle text-success" width="32" height="32" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  ...
+</svg>
+{{< /highlight >}}
+  </div>
+</div>
+
+<div class="row my-4">
+  <div class="col-md-4">
+{{< md >}}
+## Доступность
+Если иконки не являются чисто декоративными, убедитесь, что Вы предоставили подходящий текст. В зависимости от того, какой метод Вы используете для добавления значков и где Вы их используете (например, как отдельные изображения или как единственное содержимое кнопки или аналогичного элемента управления), существуют различные возможные подходы. Вот несколько примеров:
+{{< /md >}}
+  </div>
+  <div class="col-md-8">
+    <div class="bd-example">
+      <img src="/assets/img/bootstrap.svg" alt="Bootstrap" width="32" height="32">
+    </div>
+{{< highlight html >}}
+<!-- alt="..." на элементе <img> -->
+<img src="/assets/img/bootstrap.svg" alt="Bootstrap" ...>
+{{< /highlight >}}
+    <div class="bd-example">
+      <i class="bi-github" role="img" style="font-size: 2em" aria-label="GitHub"></i>
+      <svg class="bi" width="32" height="32" fill="currentColor" role="img" aria-label="Tools">
+        <use xlink:href="bootstrap-icons.svg#tools"/>
+      </svg>
+    </div>
+{{< highlight html >}}
+<!-- role="img" and aria-label="..." -->
+<i class="bi-github" role="img" aria-label="GitHub"></i>
+<svg class="bi" ... role="img" aria-label="Tools">
+  <use xlink:href="bootstrap-icons.svg#tools"/>
+</svg>
+{{< /highlight >}}
+    <div class="bd-example">
+      <button type="button" class="btn btn-primary" aria-label="Mute">
+        <svg class="bi bi-volume-mute-fill" width="32" height="32" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M6.717 3.55A.5.5 0 017 4v8a.5.5 0 01-.812.39L3.825 10.5H1.5A.5.5 0 011 10V6a.5.5 0 01.5-.5h2.325l2.363-1.89a.5.5 0 01.529-.06zm7.137 2.096a.5.5 0 010 .708L12.207 8l1.647 1.646a.5.5 0 01-.708.708L11.5 8.707l-1.646 1.647a.5.5 0 01-.708-.708L10.793 8 9.146 6.354a.5.5 0 11.708-.708L11.5 7.293l1.646-1.647a.5.5 0 01.708 0z"></path></svg>
+      </button>
+    </div>
+{{< highlight html >}}
+<!-- aria-label="..." на контроле -->
+<button ... aria-label="Mute">
+  <svg class="bi bi-volume-mute-fill" ...>
   ...
 </svg>
 {{< /highlight >}}

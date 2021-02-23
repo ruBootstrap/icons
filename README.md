@@ -19,11 +19,11 @@
   <a href="https://blog.getbootstrap.com/">Блог</a>
 </p>
 
-## 1,200+ иконок
+## 1,300+ иконок
 
 [![Полный набор иконок Bootstrap](https://github.com/twbs/icons/blob/main/.github/preview.png)](https://icons.getbootstrap.com)
 
-[Также доступно в Figma.](https://www.figma.com/file/UuL6jIPhUePmOVttDaQN8h/Bootstrap-Icons-v1.3.0?node-id=0%3A1)
+[Также доступно в Figma.](https://www.figma.com/file/tZZVOiEgKcRUHE3s6o5djB/Bootstrap-Icons-v1.4.0?node-id=0%3A1)
 
 ## Установка
 
