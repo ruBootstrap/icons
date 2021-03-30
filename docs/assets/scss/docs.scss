@@ -7,6 +7,11 @@
 @import "syntax";
 @import "ads";
 
+.bi {
+  display: inline-block;
+  vertical-align: -.125em;
+}
+
 .hero-notice {
   background-color: $teal-100;
 
@@ -101,11 +106,6 @@
   }
   // stylelint-enable  declaration-no-important
 
-  .bi {
-    display: inline-block;
-    vertical-align: -.125em;
-  }
-
   &:empty::before {
     display: block;
     width: 100%;
@@ -137,16 +137,18 @@
   }
 }
 
-.icon-examples .bi {
-  width: 1em;
-  height: 1em;
-  vertical-align: -.125em;
-}
-
 .icon-demo {
   background-color: #fdfdfd;
   background-image: radial-gradient(circle, #ddd 1px, rgba(0, 0, 0, 0) 1px);
   background-size: 1rem 1rem;
+}
+
+.icon-demo,
+.icon-demo-examples {
+  .bi {
+    width: 1em;
+    height: 1em;
+  }
 }
 
 // stylelint-disable declaration-no-important
@@ -159,8 +161,8 @@
 // stylelint-disable
 @font-face {
   font-family: bootstrap-icons;
-  src: url("../../font/fonts/bootstrap-icons.woff2?8bd4575acf83c7696dc7a14a966660a3") format("woff2"),
-       url("../../font/fonts/bootstrap-icons.woff?8bd4575acf83c7696dc7a14a966660a3") format("woff");
+  src: url("../../font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9") format("woff2"),
+       url("../../font/fonts/bootstrap-icons.woff?231ce25e89ab5804f9a6c427b8d325c9") format("woff");
 }
 
 [class^="bi-"]::before,

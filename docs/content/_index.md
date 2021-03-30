@@ -54,7 +54,7 @@ npm i bootstrap-icons
 {{< /md >}}
   </div>
   <div class="col-md-8">
-    {{< example >}}<svg class="bi bi-chevron-right" width="32" height="32" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg>{{< /example >}}
+    {{< example >}}<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>{{< /example >}}
   </div>
 </div>
 
@@ -63,6 +63,8 @@ npm i bootstrap-icons
 {{< md >}}
 ### Спрайт
 Используйте спрайт SVG для вставки любого иконки через элемент `<use>`. Используйте имя файла иконки в качестве идентификатора фрагмента (например, `toggles` это `#toggles`). Спрайты SVG позволяют ссылаться на внешний файл, аналогичный элементу `<img>`, но с мощью `currentColor` для упрощения тем.
+
+**Внимание!** В Chrome проблема, из-за которой [`<use>` не работает в разных доменах](https://bugs.chromium.org/p/chromium/issues/detail?id=470601).
 {{< /md >}}
   </div>
   <div class="col-md-8">
@@ -171,13 +173,16 @@ npm i bootstrap-icons
 {{< /highlight >}}
     <div class="bd-example">
       <i class="bi-github" role="img" style="font-size: 2em" aria-label="GitHub"></i>
+    </div>
+{{< highlight html >}}
+<i class="bi-github" role="img" aria-label="GitHub"></i>
+{{< /highlight >}}
+    <div class="bd-example">
       <svg class="bi" width="32" height="32" fill="currentColor" role="img" aria-label="Tools">
         <use xlink:href="bootstrap-icons.svg#tools"/>
       </svg>
     </div>
 {{< highlight html >}}
-<!-- role="img" and aria-label="..." -->
-<i class="bi-github" role="img" aria-label="GitHub"></i>
 <svg class="bi" ... role="img" aria-label="Tools">
   <use xlink:href="bootstrap-icons.svg#tools"/>
 </svg>
