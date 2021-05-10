@@ -7,7 +7,7 @@
 <h3 align="center">Bootstrap Icons</h3>
 
 <p align="center">
-  Официальная библиотека иконок SVG с открытым исходным кодом для Bootstrap.
+  Официальная библиотека иконок SVG с открытым исходным кодом для Bootstrap с более чем 1300 иконок.
   <br>
   <a href="https://icons.getbootstrap.su/"><strong>[RU] Обзор Иконок Bootstrap »</strong></a> | <a href="https://icons.getbootstrap.su/"><strong>[EN] Explore Bootstrap Icons »</strong></a>
   <br>
@@ -17,13 +17,10 @@
   <a href="https://themes.getbootstrap.com/">Темы</a>
   ·
   <a href="https://blog.getbootstrap.com/">Блог</a>
+  <br>
 </p>
 
-## 1,300+ иконок
-
-[![Полный набор иконок Bootstrap](https://github.com/twbs/icons/blob/main/.github/preview.png)](https://icons.getbootstrap.com)
-
-[Также доступно в Figma.](https://www.figma.com/file/YjjMzXhECL1MIb6Qlm7VJO/Bootstrap-Icons-v1.4.1)
+[![Bootstrap Icons preview](https://github.com/twbs/icons/blob/main/.github/preview.png)](https://icons.getbootstrap.com)
 
 ## Установка
 
@@ -32,6 +29,8 @@
 ```shell
 npm i bootstrap-icons
 ```
+
+[Также доступно в Figma.](https://www.figma.com/community/file/972989644486753519/Bootstrap-Icons-v1.5.0)
 
 ## Использование
 
@@ -44,7 +43,7 @@ npm i bootstrap-icons
 
 [См. документацию для получения дополнительной информации.](https://icons.getbootstrap.su/#использование)
 
-## Development
+## Разработка
 
 [![Статус сборки](https://github.com/twbs/icons/workflows/Tests/badge.svg)](https://github.com/twbs/icons/actions?workflow=Tests)
 
@@ -72,7 +71,7 @@ npm start
 
 ## Добавление SVG
 
-После того, как новая иконка SVG была добавлена в каталог `icons`, Вам нужно будет их оптимизировать. Сценарий npm используется для:
+Иконки обычно добавляются только с помощью @mdo, но могут быть сделаны исключения. Новые глифы разрабатываются в Figma сначала в сетке 16x16 пикселей, а затем экспортируются как плоские SVG с заливкой `fill` (без обводки). После того, как новый значок SVG был добавлен в каталог `icons`, мы используем сценарий npm, чтобы:
 
 1. Оптимизируйте наши SVG с помощью SVGO.
 2. Измените исходный HTML-код SVG, удалив все атрибуты перед установкой новых атрибутов и значений в нашем предпочтительном порядке.
