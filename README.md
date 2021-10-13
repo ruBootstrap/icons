@@ -7,7 +7,7 @@
 <h3 align="center">Bootstrap Icons</h3>
 
 <p align="center">
-  Официальная библиотека иконок SVG с открытым исходным кодом для Bootstrap с более чем 1300 иконок.
+  Официальная библиотека иконок SVG с открытым исходным кодом для Bootstrap с более чем 1400 иконок.
   <br>
   <a href="https://icons.getbootstrap.su/"><strong>[RU] Обзор Иконок Bootstrap »</strong></a> | <a href="https://icons.getbootstrap.su/"><strong>[EN] Explore Bootstrap Icons »</strong></a>
   <br>
@@ -30,7 +30,13 @@
 npm i bootstrap-icons
 ```
 
-[Также доступно в Figma.](https://www.figma.com/community/file/972989644486753519/Bootstrap-Icons-v1.5.0)
+Для тех, кто [использует Packagist](https://packagist.org/packages/twbs/bootstrap-icons), вы также можете установить значки Bootstrap через Composer:
+
+```shell
+composer require twbs/bootstrap-icons
+```
+
+[Также доступно в Figma.](https://www.figma.com/file/cKgRyErzl4pR1WN4NcB5lv/Bootstrap-Icons)
 
 ## Использование
 
