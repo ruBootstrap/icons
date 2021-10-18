@@ -42,8 +42,8 @@ params:
   description:          "Официальная библиотека иконок SVG с открытым исходным кодом для Bootstrap"
   social_image_path:    /assets/img/bootstrap-icons-social.png
 
-  version:              "1.6.0"
-  version_translate:    "1.6.0"
+  version:              "1.6.1"
+  version_translate:    "1.6.1"
   bs_docs_version:      "5.1"
 
   main:                 "https://getbootstrap.com"
