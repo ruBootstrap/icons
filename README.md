@@ -36,7 +36,7 @@ npm i bootstrap-icons
 composer require twbs/bootstrap-icons
 ```
 
-[Также доступно в Figma.](https://www.figma.com/file/cKgRyErzl4pR1WN4NcB5lv/Bootstrap-Icons)
+[Также доступно в Figma.](https://www.figma.com/community/file/1042482994486402696/Bootstrap-Icons)
 
 ## Использование
 
