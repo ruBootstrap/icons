@@ -108,12 +108,32 @@
           <p>Скачайте SVG, чтобы использовать или редактировать.</p>
           <a href="{{ $svgPath }}" class="btn btn-bd-primary mb-4" download>Скачать SVG</a>
 
-          <h2 class="fs-3">Шрифт иконки</h2>
+          <h2 class="fs-3">Иконка шрифта</h2>
           <p>Используете веб-шрифт? Скопируйте, вставьте и вперед.</p>
 
           <div class="mb-4">
             {{ $iconFontSnippet := printf `<i class="bi bi-%s"></i>` .File.TranslationBaseName -}}
             {{- highlight $iconFontSnippet "html" "" }}
+          </div>
+
+          <h2 class="fs-3">Точка кода</h2>
+          <div class="mb-4">
+            {{ $codepoints := getJSON "font/bootstrap-icons.json" -}}
+            {{ $hexCodepoint :=  printf "%X" (int (index $codepoints .File.TranslationBaseName)) }}
+            <ul class="list-unstyled">
+              <li>
+                Unicode: <code>U+{{- $hexCodepoint}}</code>
+              </li>
+              <li>
+                CSS: <code>\{{- $hexCodepoint}}</code>
+              </li>
+              <li>
+                JS: <code>\u{{- $hexCodepoint}}</code>
+              </li>
+              <li>
+                HTML: <code>&amp;#x{{- $hexCodepoint}};</code>
+              </li>
+            </ul>
           </div>
 
           <h2 class="fs-3">Копировать HTML</h2>

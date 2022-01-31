@@ -7,7 +7,7 @@
 <h3 align="center">Bootstrap Icons</h3>
 
 <p align="center">
-  Официальная библиотека иконок SVG с открытым исходным кодом для Bootstrap с более чем 1500 иконок.
+  Официальная библиотека иконок SVG с открытым исходным кодом для Bootstrap, содержащая более 1600 иконок.
   <br>
   <a href="https://icons.getbootstrap.su/"><strong>[RU] Обзор Иконок Bootstrap »</strong></a> | <a href="https://icons.getbootstrap.su/"><strong>[EN] Explore Bootstrap Icons »</strong></a>
   <br>
