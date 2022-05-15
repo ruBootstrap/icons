@@ -14,8 +14,14 @@
         <h1 class="f0">Иконки Bootstrap</h1>
         <p class="mb-4 f3 font-weight-normal">Бесплатная высококачественная библиотека иконок с открытым исходным кодом, содержащая более 1600 иконок. Включайте их так, как вам нравится — SVG, спрайты SVG или веб-шрифты. Используйте их с <a href="{{ .Site.Params.main_translate }}/">Bootstrap</a> или без него в любом проекте.</p>
 
-        <div class="fs-5 d-inline-block mb-3">
-          {{ highlight "npm i bootstrap-icons" "sh" "" }}
+        <div class="d-flex flex-column flex-md-row align-items-stretch justify-content-center justify-content-md-start mb-5 fs-5">
+          <div class="fs-5 d-inline-block mb-3 me-md-3 mb-md-0">
+            {{ highlight "npm i bootstrap-icons" "sh" "" }}
+          </div>
+          <a class="btn btn-lg btn-outline-dark d-flex align-items-center justify-content-center" href="{{ .Site.Params.icons_figma }}" target="_blank" rel="noopener">
+            {{ partial "icons/figma.svg" (dict "class" "me-2" "width" "18" "height" "24") }}
+            Open in Figma
+          </a>
         </div>
 
         <!-- {{ partialCached "ads" . }} -->
