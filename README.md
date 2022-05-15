@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://v5.getbootstrap.com/">
-    <img src="https://v5.getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap logo" width="200" height="165">
+  <a href="https://getbootstrap.com/">
+    <img src="https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap logo" width="200" height="165">
   </a>
 </p>
 
@@ -9,14 +9,14 @@
 <p align="center">
   Официальная библиотека иконок SVG с открытым исходным кодом для Bootstrap, содержащая более 1600 иконок.
   <br>
-  <a href="https://icons.getbootstrap.su/"><strong>[RU] Обзор Иконок Bootstrap »</strong></a> | <a href="https://icons.getbootstrap.su/"><strong>[EN] Explore Bootstrap Icons »</strong></a>
+  <a href="https://icons.getbootstrap.su/"><strong>[RU] Обзор Иконок Bootstrap »</strong></a> | <a href="https://icons.getbootstrap.com/"><strong>[EN] Explore Bootstrap Icons »</strong></a>
   <br>
   <br>
-  <a href="https://getbootstrap.su/">Bootstrap</a>
+  <a href="https://getbootstrap.su/">[RU] Bootstrap</a> | <a href="https://getbootstrap.com/">[EN] Bootstrap</a>
   ·
   <a href="https://themes.getbootstrap.com/">Темы</a>
   ·
-  <a href="https://blog.getbootstrap.com/">Блог</a>
+  <a href="https://blog.getbootstrap.su/">[RU] Блог</a> | <a href="https://blog.getbootstrap.com/">[EN] Blog</a>
   <br>
 </p>
 

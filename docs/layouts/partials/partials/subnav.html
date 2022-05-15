@@ -1,0 +1,10 @@
+<nav class="bd-subnavbar pt-2 pb-3 pb-md-2">
+  <div class="container d-flex align-items-md-center py-2">
+    <nav class="nav mx-auto">
+      <a class="nav-link text-dark py-1{{ if .IsHome }} fw-600{{ end }}" href="/">Все посты</a>
+      <a class="nav-link text-dark py-1{{ if eq .Page.Title "Архив" }} fw-600{{ end }}" href="/archive/">Архив</a>
+      <a class="nav-link text-dark py-1{{ if eq .Page.Title "Видео" }} fw-600{{ end }}" href="/videos/">Видео</a>
+      <a class="nav-link text-dark py-1" href="{{ absURL "/feed.xml" }}">Подписаться</a>
+    </nav>
+  </div>
+</nav>

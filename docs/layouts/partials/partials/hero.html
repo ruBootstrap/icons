@@ -1,0 +1,32 @@
+<div class="masthead py-5">
+  <div class="mb-4 text-center text-lg-start">
+    <a class="flex-shrink-0 mb-lg-3 link-dark text-decoration-none" href="/" aria-label="Bootstrap">
+      <img src="/assets/brand/bootstrap-logo-shadow.png" width="200" height="165" alt="Bootstrap" class="bd-booticon d-block mx-auto mb-3 mx-lg-0">
+    </a>
+    <div class="ms-3 ms-lg-0">
+      <h1 class="mb-1 mb-lg-2 f1 fw-600">Блог Bootstrap</h1>
+      <p class="col-sm-8 col-lg-12 mx-auto mb-0 mb-lg-4">
+        Новости и объявления обо всем, что связано с <a href="{{ .Site.Params.main }}/" title="Посетите документацию Bootstrap">Bootstrap</a>,
+        включая новые выпуски, <a href="{{ .Site.Params.themes }}" title="Просмотрите официальные темы Bootstrap">Темы Bootstrap</a>,
+        and <a href="{{ .Site.Params.icons }}" title="Официальные иконки Bootstrap с открытым исходным кодом">Иконки Bootstrap</a>.
+      </p>
+    </div>
+  </div>
+
+  <nav class="nav nav-pills justify-content-center flex-lg-column justify-content-lg-start gap-1 sidebar-nav">
+    <a class="nav-link d-flex align-items-center{{ if .IsHome }} active fw-600{{ else }} text-dark{{ end }}" href="/">
+      <svg class="bi me-2 f5 bd-text-purple"><use xlink:href="#file-earmark-richtext"></use></svg>
+      Все посты
+    </a>
+    <a class="nav-link d-flex align-items-center{{ if eq .Page.Title "Архив" }} active fw-600{{ else }} text-dark{{ end }}" href="/archive/">
+      <svg class="bi me-2 f5 text-primary"><use xlink:href="#archive"></use></svg>
+      Архив
+    </a>
+    <a class="nav-link d-flex align-items-center text-dark" href="{{ absURL "/feed.xml" }}">
+      <svg class="bi me-2 f5 text-warning"><use xlink:href="#rss"></use></svg>
+      Подписаться
+    </a>
+  </nav>
+
+  {{/*  {{ partial "carbonads" }}  */}}
+</div>
