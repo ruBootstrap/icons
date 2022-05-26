@@ -53,8 +53,8 @@ params:
   description:          "Официальная библиотека иконок SVG с открытым исходным кодом для Bootstrap"
   social_image_path:    /assets/img/bootstrap-icons-social.png
 
-  version:              "1.8.2"
-  version_translate:    "1.8.2"
+  version:              "1.8.3"
+  version_translate:    "1.8.3"
   docs_version:         "5.2"
 
   main:                 "https://getbootstrap.com"
@@ -65,7 +65,8 @@ params:
   repo_translate:       "https://github.com/ruBootstrap/icons"
   twitter:              "getbootstrap"
   slack:                "https://bootstrap-slack.herokuapp.com"
-  blog:                 "https://blog.getbootstrap.su"
+  blog:                 "https://blog.getbootstrap.com"
+  blog_translate:       "https://blog.getbootstrap.su"
   expo:                 "https://expo.getbootstrap.com"
   themes:               "https://themes.getbootstrap.com"
   opencollective:       "https://opencollective.com/bootstrap"
