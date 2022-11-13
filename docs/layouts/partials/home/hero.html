@@ -1,39 +1,65 @@
 <div class="hero py-5 text-center text-lg-start">
-  <div class="container">
+  <div class="container-xxl bd-gutter">
     <div class="row flex-lg-row-reverse">
       <div class="col-6 mx-auto col-lg-5 mx-lg-0">
-        <img srcset="/assets/img/icons-hero.png, /assets/img/icons-hero@2x.png 2x"
-             src="/assets/img/icons-hero.png"
-             class="img-fluid my-3 mx-auto"
-             alt="Иконки Bootstrap" width="450" height="340">
+        <img
+          srcset="/assets/img/icons-hero.png, /assets/img/icons-hero@2x.png 2x"
+          src="/assets/img/icons-hero.png"
+          class="img-fluid my-3 mx-auto"
+          alt="Иконки Bootstrap"
+          width="450"
+          height="340"
+        />
       </div>
       <div class="col-lg-7">
-        <a class="d-block d-sm-inline-block py-1 px-3 mb-4 text-dark text-decoration-none rounded-3 hero-notice" href="{{ .Site.Params.blog }}/2022/07/13/bootstrap-icons-1-9-0/">
-          <strong>Новое в v1.9.0:</strong> 140+ новых иконок!
+        <a
+          class="d-block d-sm-inline-block py-1 px-3 mb-4 text-dark text-decoration-none rounded-3 hero-notice"
+          href="{{ .Site.Params.blog }}/2022/11/11/bootstrap-icons-1-10-0/"
+        >
+          <strong>Новое в v1.10.0:</strong> 140+ новых иконок!
         </a>
         <h1 class="f0">Иконки Bootstrap</h1>
-        <p class="mb-4 f3 font-weight-normal">Бесплатная высококачественная библиотека иконок с открытым исходным кодом, содержащая более 1600 иконок. Включайте их так, как вам нравится — SVG, спрайты SVG или веб-шрифты. Используйте их с <a href="{{ .Site.Params.main_translate }}/">Bootstrap</a> или без него в любом проекте.</p>
+        <p class="mb-4 f3 font-weight-normal">
+          Бесплатная высококачественная библиотека иконок с открытым исходным
+          кодом, содержащая более 1800 иконок. Включайте их так, как вам
+          нравится — SVG, спрайты SVG или веб-шрифты. Используйте их с
+          <a href="{{ .Site.Params.main_translate }}/">Bootstrap</a> или без
+          него в любом проекте.
+        </p>
 
-        <div class="d-flex flex-column flex-md-row align-items-stretch justify-content-center justify-content-md-start mb-5 fs-5">
+        <div
+          class="d-flex flex-column flex-md-row align-items-stretch justify-content-center justify-content-md-start mb-5 fs-5"
+        >
           <div class="fs-5 d-inline-block mb-3 me-md-3 mb-md-0">
             {{ highlight "npm i bootstrap-icons" "sh" "" }}
           </div>
-          <a class="btn btn-lg btn-outline-dark d-flex align-items-center justify-content-center" href="{{ .Site.Params.icons_figma }}" target="_blank" rel="noopener">
-            {{ partial "icons/figma.svg" (dict "class" "me-2" "width" "18" "height" "24") }}
-            Open in Figma
+          <a
+            class="btn btn-lg btn-outline-dark d-flex align-items-center justify-content-center"
+            href="{{ .Site.Params.icons_figma }}"
+            target="_blank"
+            rel="noopener"
+          >
+            {{ partial "icons/figma.svg" (dict "class" "me-2" "width" "18"
+            "height" "24") }} Open in Figma
           </a>
         </div>
 
         <!-- {{ partialCached "ads" . }} -->
 
-        <hr class="mx-auto mx-lg-0 my-5">
+        <hr class="mx-auto mx-lg-0 my-5" />
 
         <p class="text-muted">
-          Текущая <a href="{{ .Site.Params.repo }}/releases/tag/v{{ .Site.Params.version }}">v{{ .Site.Params.version }}</a>
+          Текущая
+          <a
+            href="{{ .Site.Params.repo }}/releases/tag/v{{ .Site.Params.version }}"
+            >v{{ .Site.Params.version }}</a
+          >
           <span class="px-1">&#8226;</span>
           <a href="#icons">Иконки</a>
           <span class="px-1">&#8226;</span>
-          <a href="#установка">Установка</a>
+          <a href="/font/">Иконочный шрифт</a>
+          <span class="px-1">&#8226;</span>
+          <a href="#install">Установка</a>
           <span class="px-1">&#8226;</span>
           <a href="#использование">Применение</a>
           <span class="px-1">&#8226;</span>
