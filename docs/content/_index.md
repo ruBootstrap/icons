@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /font/
 ---
 
 ## Установка
@@ -76,7 +78,13 @@ composer require twbs/bootstrap-icons
 
   </div>
   <div class="col-md-8">
-{{< example >}}
+
+<div class="bd-example" style="font-size: 32px;">
+  <i class="bi bi-heart-fill"></i>
+  <i class="bi bi-toggles"></i>
+  <i class="bi bi-shop"></i>
+</div>
+{{< highlight html >}}
 <svg class="bi" width="32" height="32" fill="currentColor">
   <use xlink:href="bootstrap-icons.svg#heart-fill"/>
 </svg>
@@ -86,7 +94,7 @@ composer require twbs/bootstrap-icons
 <svg class="bi" width="32" height="32" fill="currentColor">
   <use xlink:href="bootstrap-icons.svg#shop"/>
 </svg>
-{{< /example >}}
+{{< /highlight >}}
   </div>
 </div>
 
@@ -98,7 +106,7 @@ composer require twbs/bootstrap-icons
 {{< /md >}}
   </div>
   <div class="col-md-8">
-    {{< example >}}<img src="/assets/img/bootstrap.svg" alt="Bootstrap" width="32" height="32">{{< /example >}}
+    {{< example >}}<img src="/assets/icons/bootstrap.svg" alt="Bootstrap" width="32" height="32">{{< /example >}}
   </div>
 </div>
 
@@ -175,22 +183,15 @@ composer require twbs/bootstrap-icons
   </div>
   <div class="col-md-8">
     <div class="bd-example">
-      <img src="/assets/img/bootstrap.svg" alt="Bootstrap" width="32" height="32">
+      <img src="/assets/icons/bootstrap.svg" alt="Bootstrap" width="32" height="32">
     </div>
 {{< highlight html >}}
 <!-- alt="..." на элементе <img> -->
-<img src="/assets/img/bootstrap.svg" alt="Bootstrap" ...>
+<img src="/assets/icons/bootstrap.svg" alt="Bootstrap" ...>
 {{< /highlight >}}
     <div class="bd-example">
       <i class="bi-github" role="img" style="font-size: 2em" aria-label="GitHub"></i>
-    </div>
-{{< highlight html >}}
-<i class="bi-github" role="img" aria-label="GitHub"></i>
-{{< /highlight >}}
-    <div class="bd-example">
-      <svg class="bi" width="32" height="32" fill="currentColor" role="img" aria-label="Tools">
-        <use xlink:href="bootstrap-icons.svg#tools"/>
-      </svg>
+      <i class="bi-tools" role="img" style="font-size: 2em" aria-label="Tools"></i>
     </div>
 {{< highlight html >}}
 <svg class="bi" ... role="img" aria-label="Tools">

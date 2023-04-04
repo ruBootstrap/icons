@@ -20,7 +20,7 @@
   <br>
 </p>
 
-[![Bootstrap Icons preview](https://github.com/twbs/icons/blob/main/.github/preview.png)](https://icons.getbootstrap.com)
+[![Bootstrap Icons preview](https://github.com/twbs/icons/blob/main/.github/preview.png)](https://icons.getbootstrap.com/)
 
 ## Установка
 
@@ -36,7 +36,7 @@ npm i bootstrap-icons
 composer require twbs/bootstrap-icons
 ```
 
-[Также доступно в Figma.](https://www.figma.com/community/file/1042482994486402696/Bootstrap-Icons)
+[Также доступно в Figma](https://www.figma.com/community/file/1042482994486402696/Bootstrap-Icons).
 
 ## Использование
 
@@ -47,11 +47,12 @@ composer require twbs/bootstrap-icons
 - Использовать спрайт SVG
 - Включить через CSS
 
-[См. документацию для получения дополнительной информации.](https://icons.getbootstrap.su/#использование)
+[Смотрите документацию для получения дополнительной информации](https://icons.getbootstrap.com/#usage).
 
 ## Разработка
 
-[![Статус сборки](https://github.com/twbs/icons/workflows/Tests/badge.svg)](https://github.com/twbs/icons/actions?workflow=Tests)
+[![Статус сборки](https://img.shields.io/github/actions/workflow/status/twbs/icons/test.yml?branch=main&label=Tests&logo=github)](https://github.com/twbs/icons/actions/workflows/test.yml?query=workflow%3ATests+branch%3Amain)
+[![Версия npm](https://img.shields.io/npm/v/bootstrap-icons?logo=npm&logoColor=fff)](https://www.npmjs.com/package/bootstrap-icons)
 
 Клонируйте репозиторий, установите зависимости и запустите сервер Hugo локально.
 
@@ -66,10 +67,10 @@ npm start
 
 ### Скрипты npm
 
-Вот несколько ключевых сценариев, которые Вы будете использовать во время разработки. Не забудьте заглянуть в наш `package.json` для получения полного списка скриптов.
+Вот несколько ключевых сценариев, которые вы будете использовать во время разработки. Обязательно просмотрите наши выходные данные `package.json` или `npm run`, чтобы получить полный список скриптов.
 
 | Скрипт       | Описание                                                                             |
-| ------------ | ------------------------------------------------------------------------------------ |
+|--------------|--------------------------------------------------------------------------------------|
 | `start`      | Псевдоним для запуска `docs-serve`                                                   |
 | `docs-serve` | Запускает локальный сервер Hugo                                                      |
 | `pages`      | Создает страницы с постоянными ссылками для каждой иконки с помощью шаблона Markdown |
@@ -80,9 +81,11 @@ npm start
 Иконки обычно добавляются только с помощью @mdo, но могут быть сделаны исключения. Новые глифы разрабатываются в Figma сначала в сетке 16x16 пикселей, а затем экспортируются как плоские SVG с заливкой `fill` (без обводки). После того, как новый значок SVG был добавлен в каталог `icons`, мы используем сценарий npm, чтобы:
 
 1. Оптимизируйте наши SVG с помощью SVGO.
-2. Измените исходный HTML-код SVG, удалив все атрибуты перед установкой новых атрибутов и значений в нашем предпочтительном порядке.
+2. Измените исходный код SVG, удалив все атрибуты перед установкой новых атрибутов и значений в предпочтительном порядке.
 
 Используйте `npm run icons` для запуска скрипта, запустите `npm run pages` для создания страниц с постоянными ссылками, заполните эти страницы и, наконец, зафиксируйте результаты в новой ветке для обновления.
+
+**Warning**: Please exclude any auto-generated files, like `font/**` and `bootstrap-icons.svg` from your branch because they cause conflicts, and we generally update the dist files before a release.
 
 ## Публикация
 

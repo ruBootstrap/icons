@@ -46,27 +46,33 @@ module:
       target: static/assets/font
     - source: node_modules/bootstrap/scss
       target: assets/scss/bootstrap
-    - source: node_modules/bootstrap/dist/js/bootstrap.min.js
-      target: assets/js/bootstrap.min.js
+    - source: node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
+      target: static/assets/js/vendor/bootstrap.bundle.min.js
+    - source: node_modules/clipboard/dist/clipboard.min.js
+      target: assets/js/vendor/clipboard.min.js
+    - source: node_modules/fuse.js/dist/fuse.min.js
+      target: assets/js/vendor/fuse.min.js
 
 params:
   description: "Официальная библиотека иконок SVG с открытым исходным кодом для Bootstrap"
   social_image_path: /assets/img/bootstrap-icons-social.png
 
-  version:              "1.10.2"
-  docs_version:         "5.2"
+  version: "1.10.4"
+  docs_version: "5.3"
 
   main: "https://getbootstrap.com"
   main_translate: "https://getbootstrap.su"
   github_org: "https://github.com/twbs"
   github_translate: "https://github.com/ruBootstrap"
-  repo: "https://github.com/twbs/icons"
+  icons_repo: "https://github.com/twbs/icons"
+  repo: "https://github.com/twbs/bootstrap"
   repo_translate: "https://github.com/ruBootstrap/icons"
   twitter: "getbootstrap"
-  slack: "https://bootstrap-slack.herokuapp.com"
-  blog: "https://blog.getbootstrap.com"
-  blog_translate: "https://blog.getbootstrap.su"
-  expo: "https://expo.getbootstrap.com"
-  themes: "https://themes.getbootstrap.com"
   opencollective: "https://opencollective.com/bootstrap"
+  blog: "https://blog.getbootstrap.com/"
+  blog_translate: "https://blog.getbootstrap.su"
+  themes: "https://themes.getbootstrap.com/"
+  icons: "https://icons.getbootstrap.com/"
+  icons_translate: "https://icons.getbootstrap.su/"
+  swag: "https://cottonbureau.com/people/bootstrap"
   icons_figma: "https://www.figma.com/community/file/1042482994486402696/Bootstrap-Icons"
