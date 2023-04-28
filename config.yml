@@ -48,16 +48,12 @@ module:
       target: assets/scss/bootstrap
     - source: node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
       target: static/assets/js/vendor/bootstrap.bundle.min.js
-    - source: node_modules/clipboard/dist/clipboard.min.js
-      target: assets/js/vendor/clipboard.min.js
-    - source: node_modules/fuse.js/dist/fuse.min.js
-      target: assets/js/vendor/fuse.min.js
 
 params:
   description: "Официальная библиотека иконок SVG с открытым исходным кодом для Bootstrap"
   social_image_path: /assets/img/bootstrap-icons-social.png
 
-  version: "1.10.4"
+  version: "1.10.5"
   docs_version: "5.3"
 
   main: "https://getbootstrap.com"

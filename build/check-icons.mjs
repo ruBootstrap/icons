@@ -1,11 +1,13 @@
 #!/usr/bin/env node
 
-'use strict'
+import fs from 'node:fs/promises'
+import path from 'node:path'
+import process from 'node:process'
+import { fileURLToPath } from 'node:url'
+import picocolors from 'picocolors'
 
-const fs = require('node:fs').promises
-const path = require('node:path')
-const process = require('node:process')
-const picocolors = require('picocolors')
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 const fontJsonPath = path.join(__dirname, '../font/bootstrap-icons.json')
 const iconsDir = path.join(__dirname, '../icons/')
@@ -23,7 +25,7 @@ const iconsDir = path.join(__dirname, '../icons/')
     const svgFiles = await fs.readdir(iconsDir)
 
     const jsonIconList = Object.keys(fontJson)
-    const svgIconList = svgFiles.map(svg => path.basename(svg, path.extname(svg)))
+    const svgIconList = svgFiles.map(svg => path.basename(svg, '.svg'))
 
     const onlyInJson = jsonIconList.filter(icon => !svgIconList.includes(icon))
     const onlyInSvg = svgIconList.filter(icon => !jsonIconList.includes(icon))
