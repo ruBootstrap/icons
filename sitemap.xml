@@ -172,7 +172,16 @@
     <loc>https://icons.getbootstrap.su/icons/alipay/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/alphabet/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/alphabet-uppercase/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/alt/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/amazon/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/amd/</loc>
@@ -382,6 +391,9 @@
     <loc>https://icons.getbootstrap.su/icons/arrow-up-short/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/arrows/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/arrows-angle-contract/</loc>
   </url>
   <url>
@@ -391,13 +403,22 @@
     <loc>https://icons.getbootstrap.su/icons/arrows-collapse/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/arrows-collapse-vertical/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/arrows-expand/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/arrows-expand-vertical/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/arrows-fullscreen/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/arrows-move/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/arrows-vertical/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/aspect-ratio/</loc>
@@ -419,6 +440,30 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/back/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/backpack/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/backpack-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/backpack2/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/backpack2-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/backpack3/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/backpack3-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/backpack4/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/backpack4-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/backspace/</loc>
@@ -553,6 +598,12 @@
     <loc>https://icons.getbootstrap.su/icons/balloon-heart-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/ban/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/ban-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/bandaid/</loc>
   </url>
   <url>
@@ -632,6 +683,9 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/bicycle/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/bing/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/binoculars/</loc>
@@ -883,6 +937,9 @@
     <loc>https://icons.getbootstrap.su/icons/brightness-low-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/brilliance/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/broadcast/</loc>
   </url>
   <url>
@@ -1010,6 +1067,18 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/c-square-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/cake/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/cake-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/cake2/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/cake2-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/calculator/</loc>
@@ -1903,6 +1972,12 @@
     <loc>https://icons.getbootstrap.su/icons/controller/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/cookie/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/copy/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/cpu/</loc>
   </url>
   <url>
@@ -1928,6 +2003,12 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/crop/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/crosshair/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/crosshair2/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/cup/</loc>
@@ -2200,6 +2281,12 @@
     <loc>https://icons.getbootstrap.su/icons/droplet-half/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/duffle/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/duffle-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/ear/</loc>
   </url>
   <url>
@@ -2248,6 +2335,12 @@
     <loc>https://icons.getbootstrap.su/icons/emoji-angry-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/emoji-astonished/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/emoji-astonished-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/emoji-dizzy/</loc>
   </url>
   <url>
@@ -2264,6 +2357,18 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/emoji-frown-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/emoji-grimace/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/emoji-grimace-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/emoji-grin/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/emoji-grin-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/emoji-heart-eyes/</loc>
@@ -2308,6 +2413,18 @@
     <loc>https://icons.getbootstrap.su/icons/emoji-sunglasses-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/emoji-surprise/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/emoji-surprise-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/emoji-tear/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/emoji-tear-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/emoji-wink/</loc>
   </url>
   <url>
@@ -2315,6 +2432,18 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/envelope/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/envelope-arrow-down/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/envelope-arrow-down-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/envelope-arrow-up/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/envelope-arrow-up-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/envelope-at/</loc>
@@ -2461,6 +2590,9 @@
     <loc>https://icons.getbootstrap.su/icons/explicit-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/exposure/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/eye/</loc>
   </url>
   <url>
@@ -2501,6 +2633,12 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/fast-forward-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/feather/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/feather2/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/file/</loc>
@@ -3076,6 +3214,18 @@
     <loc>https://icons.getbootstrap.su/icons/flag-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/floppy/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/floppy-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/floppy2/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/floppy2-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/flower1/</loc>
   </url>
   <url>
@@ -3175,6 +3325,9 @@
     <loc>https://icons.getbootstrap.su/icons/gender-male/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/gender-neuter/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/gender-trans/</loc>
   </url>
   <url>
@@ -3200,6 +3353,9 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/github/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/gitlab/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/globe/</loc>
@@ -3407,6 +3563,12 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/hexagon-half/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/highlighter/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/highlights/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/hospital/</loc>
@@ -3799,6 +3961,12 @@
     <loc>https://icons.getbootstrap.su/icons/lock-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/luggage/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/luggage-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/lungs/</loc>
   </url>
   <url>
@@ -3817,7 +3985,13 @@
     <loc>https://icons.getbootstrap.su/icons/mailbox/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/mailbox-flag/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/mailbox2/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/mailbox2-flag/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/map/</loc>
@@ -3830,6 +4004,9 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/markdown-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/marker-tip/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/mask/</loc>
@@ -3988,6 +4165,9 @@
     <loc>https://icons.getbootstrap.su/icons/node-plus-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/noise-reduction/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/nut/</loc>
   </url>
   <url>
@@ -3997,6 +4177,12 @@
     <loc>https://icons.getbootstrap.su/icons/nvidia/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/nvme/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/nvme-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/octagon/</loc>
   </url>
   <url>
@@ -4004,6 +4190,9 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/octagon-half/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/opencollective/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/optical-audio/</loc>
@@ -4052,6 +4241,12 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/pass-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/passport/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/passport-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/patch-check/</loc>
@@ -4120,6 +4315,12 @@
     <loc>https://icons.getbootstrap.su/icons/pci-card/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/pci-card-network/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/pci-card-sound/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/peace/</loc>
   </url>
   <url>
@@ -4166,6 +4367,9 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/person-add/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/person-arms-up/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/person-badge/</loc>
@@ -4249,6 +4453,9 @@
     <loc>https://icons.getbootstrap.su/icons/person-plus-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/person-raised-hand/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/person-rolodex/</loc>
   </url>
   <url>
@@ -4256,6 +4463,12 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/person-square/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/person-standing/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/person-standing-dress/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/person-up/</loc>
@@ -4274,6 +4487,12 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/person-video3/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/person-walking/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/person-wheelchair/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/person-workspace/</loc>
@@ -4507,6 +4726,9 @@
     <loc>https://icons.getbootstrap.su/icons/r-square-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/radar/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/radioactive/</loc>
   </url>
   <url>
@@ -4687,6 +4909,18 @@
     <loc>https://icons.getbootstrap.su/icons/send/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/send-arrow-down/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/send-arrow-down-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/send-arrow-up/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/send-arrow-up-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/send-check/</loc>
   </url>
   <url>
@@ -4727,6 +4961,9 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/server/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/shadows/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/share/</loc>
@@ -4942,6 +5179,12 @@
     <loc>https://icons.getbootstrap.su/icons/sim-fill/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/sim-slash/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/sim-slash-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/sina-weibo/</loc>
   </url>
   <url>
@@ -5101,6 +5344,9 @@
     <loc>https://icons.getbootstrap.su/icons/soundwave/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/sourceforge/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/speaker/</loc>
   </url>
   <url>
@@ -5200,6 +5446,9 @@
     <loc>https://icons.getbootstrap.su/icons/subscript/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/substack/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/subtract/</loc>
   </url>
   <url>
@@ -5225,6 +5474,24 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/suit-spade-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/suitcase/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/suitcase-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/suitcase-lg/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/suitcase-lg-fill/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/suitcase2/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/suitcase2-fill/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/sun/</loc>
@@ -5404,6 +5671,12 @@
     <loc>https://icons.getbootstrap.su/icons/thermometer-sun/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/threads/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/threads-fill/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/three-dots/</loc>
   </url>
   <url>
@@ -5482,6 +5755,9 @@
     <loc>https://icons.getbootstrap.su/icons/translate/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/transparency/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/trash/</loc>
   </url>
   <url>
@@ -5554,6 +5830,9 @@
     <loc>https://icons.getbootstrap.su/icons/twitter/</loc>
   </url>
   <url>
+    <loc>https://icons.getbootstrap.su/icons/twitter-x/</loc>
+  </url>
+  <url>
     <loc>https://icons.getbootstrap.su/icons/type/</loc>
   </url>
   <url>
@@ -5567,6 +5846,15 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/type-h3/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/type-h4/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/type-h5/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/type-h6/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/type-italic/</loc>
@@ -5681,6 +5969,9 @@
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/view-stacked/</loc>
+  </url>
+  <url>
+    <loc>https://icons.getbootstrap.su/icons/vignette/</loc>
   </url>
   <url>
     <loc>https://icons.getbootstrap.su/icons/vimeo/</loc>
