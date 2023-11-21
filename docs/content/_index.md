@@ -40,11 +40,11 @@ composer require twbs/bootstrap-icons
 
 {{< highlight html >}}
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@{{< param version >}}/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@{{< param version >}}/font/bootstrap-icons.min.css">
 {{< /highlight >}}
 
 {{< highlight css >}}
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@{{< param version >}}/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@{{< param version >}}/font/bootstrap-icons.min.css");
 {{< /highlight >}}
 {{< /md >}}
 
@@ -227,7 +227,7 @@ composer require twbs/bootstrap-icons
 
 - **SVG получают фокус по умолчанию в Internet Explorer и Edge Legacy.** При встраивании SVG добавьте `focusable="false"` в элемент `<svg>`. [Подробнее на Stack Overflow.](https://stackoverflow.com/questions/18646111/disable-onfocus-event-for-svg-element)
 
-- **При использовании SVG с элементами `<img>` программы чтения с экрана могут не объявлять их как изображения или полностью пропускать изображение.** Включите дополнительный `role="img"` в элемент `<img>`, чтобы избегать любых проблем. [Подробнее смотрите в этой статье.](https://simplyaccessible.com/article/7-solutions-svgs/#acc-heading-2)
+- **При использовании SVG с элементами `<img>` программы чтения с экрана могут не объявлять их как изображения или полностью пропускать изображение.** Включите дополнительный `role="img"` в элемент `<img>`, чтобы избегать любых проблем. [Подробнее смотрите в этой статье.](https://web.archive.org/web/20201112013541/https://simplyaccessible.com/article/7-solutions-svgs/#acc-heading-2)
 
 - **Внешние спрайты SVG могут некорректно работать в Internet Explorer.** При необходимости используйте полифилл [svg4everybody](https://github.com/jonathantneal/svg4everybody).
 

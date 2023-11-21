@@ -93,7 +93,7 @@ npm start
 
 ## Лицензия
 
-MIT
+[MIT](LICENSE)
 
 ## Автор
 
