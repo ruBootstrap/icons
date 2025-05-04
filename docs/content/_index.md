@@ -114,15 +114,15 @@ composer require twbs/bootstrap-icons
   <div class="col-md-4">
 {{< md >}}
 ### Шрифт иконки
-Иконочные шрифты с классами для каждой иконки также включены в Bootstrap Icons. Включите веб-шрифты иконок на свою страницу с помощью CSS, затем укажите имена классов, если это необходимо в Вашем HTML (например, `<i class="bi-alarm-clock"></i>`).
+Шрифты иконок с классами для каждой иконки также включены для иконок Bootstrap. Включите веб-шрифты иконок на свою страницу через CSS, затем при необходимости ссылайтесь на имена классов в вашем HTML (например, `<i class="bi bi-alarm"></i>`).
 
 Используйте `font-size` и `color`, чтобы изменить внешний вид иконки.
 {{< /md >}}
 
   </div>
   <div class="col-md-8">
-    {{< example >}}<i class="bi-alarm"></i>{{< /example >}}
-    {{< example >}}<i class="bi-alarm" style="font-size: 2rem; color: cornflowerblue;"></i>{{< /example >}}
+    {{< example >}}<i class="bi bi-alarm"></i>{{< /example >}}
+    {{< example >}}<i class="bi bi-alarm" style="font-size: 2rem; color: cornflowerblue;"></i>{{< /example >}}
   </div>
 </div>
 
